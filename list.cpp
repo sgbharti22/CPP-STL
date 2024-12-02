@@ -19,6 +19,6 @@ int main()
     // to check the size of the list
     cout<<"size : "<<l.size()<<endl;
     // erase(), clear(), begin(), end(), rbegin(), rend(), insert(), front(), back()
-    
+    // pop_back() and pop_front()
     return 0;
 }
