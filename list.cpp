@@ -21,4 +21,12 @@ int main()
     // erase(), clear(), begin(), end(), rbegin(), rend(), insert(), front(), back()
     // pop_back() and pop_front()
     return 0;
+
+
+
+    // Deque -> internal implemntation is dynamic arrays and random access is possible it is indexed
+    // in list random access is not possible and indexing is also not possible
+    //
+    //    Sequence Container- Vector , list , deque
+    //
 }
