@@ -1,0 +1,31 @@
+Pair - part of utility library
+
+pair<int,string> p1={2,"asdf"};
+
+can also create vector of pairs
+vector<pair<int,string>>vp1={{},{}}
+
+emplace_back- inplace object create
+emplace_back is much faster than push_back
+
+Stack - push,emplace,pop,size, empty,swap, top
+  swap- put all the elements to another stack
+
+Queue
+
+Priority Queue - implemented using max heap/min heap 
+top- contains the highest prioruty element (largest element)
+
+priority_queue<int> q; ->by default max element on the top
+priority_queue<int,vector<int>,greater<int>> q;   syntax for min element on the top
+
+map- keys are in sorted order
+    map is implemented as self balancing tree
+    map - insert,erase,count -> O(logN)
+multimap - can have duplicate keys
+
+unorderd_map- keys are in random order
+    unorderd_map - insert,erase,count -> O(1) usually worst case-O(N)
+
+set- unique values can be stored
+  set is implemented as self balancing tree
